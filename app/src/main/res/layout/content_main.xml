@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.thinkcool.circletextimageviewtest.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <com.thinkcool.circletextimageview.CircleTextImageView
+        android:id="@+id/circle_text_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:citv_border_color="@color/colorPrimary"
+        app:citv_border_width="2dp"
+        app:citv_text_text="@string/app_name"
+        app:citv_text_size="22sp"
+        app:citv_text_padding="20dp"
+        android:src="@mipmap/ic_launcher"
+        app:citv_fill_color="@color/colorAccent"
+        />
+
+</FrameLayout>
